@@ -1,0 +1,146 @@
+.main-header{
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-image: url("Images/Header.jpg");
+    background-color: rgba(0,0,0,0.6);
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: white;
+    text-align: center;
+}
+
+.main-boxes{
+    display: flex;
+}
+
+.main-box{
+    flex-grow: 1;
+}
+
+.main-hero{
+    width: 100%;
+    height: 620px;
+    font-size: 100px;
+    color: white;
+    background-image: url("Images/Heroes.jpg");
+    background-color: rgba(0,0,0,0.8);
+    background-blend-mode: multiply;
+}
+
+.main-hero:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.main-villain{
+    width: 100%;
+    height: 620px;
+    font-size: 100px;
+    color: white;
+    background-image: url("Images/Villains.jpg");
+    background-color: rgba(0,0,0,0.8);
+    background-blend-mode: multiply;
+}
+
+.main-villain:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+.main-header span{
+    font-size: 80px;
+    padding-bottom:0;
+}
+
+.btn-main, .btn-villains, .btn-heroes{
+    margin: 30px;
+    width: 300px;
+    font-size: 25px;
+    border-radius: 5%;
+    opacity: 50%;
+    border: 2px solid white;
+}
+
+.btn-main:hover, .btn-villains:hover, .btn-heroes:hover{
+    border: 2px solid blue;
+    background-color: rgba(103, 79, 241, 0.9);
+    cursor: pointer;
+}
+
+.hero-content{
+    background-image: url("Images/Heroes.jpg");
+    background-color: rgba(0,0,0,.8);
+    background-blend-mode: multiply;
+    color: white;
+    margin: 0;
+}
+
+.villain-content{
+    background-image: url("Images/Villains.jpg");
+    background-color: rgba(0,0,0,.8);
+    background-blend-mode: multiply;
+    color: white;
+    margin: 0;
+}
+
+.main-nav{
+    display: flex;
+}
+
+.btn{
+    padding: .75em .75em;
+}
+
+.nav-main{
+    flex-grow: 1;
+}
+
+.char-items{
+    display: flex;
+}
+
+.char-item{
+    margin: 30px;
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px;
+}
+
+.char-item-details{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.char-item-image{
+    border-radius: 50%;
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}
+
+.button-center{
+    text-align: center;
+}
+
+.para-justify{
+    text-align: justify;
+}
+
+.btn-wiki{
+    width: 200px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    border-radius: 10%;
+    border: 1px solid black;
+}
+
+.btn-wiki:hover{
+    border: 1px solid green;
+    background-color: rgb(102, 180, 108);
+    cursor: pointer;
+}
